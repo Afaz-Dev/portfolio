@@ -792,13 +792,13 @@ body {
 }
 
 #imau5i {
-	height: 350px;
-	width: 615px;
+	min-width: 615px;
+	min-height: 350px;
 }
 
 #imau5i-2 {
-	height: 350px;
-	width: 615px;
+	min-width: 615px;
+	min-height: 350px;
 }
 
 #il6rqk-2 {
@@ -810,8 +810,8 @@ body {
 }
 
 #imau5i-3 {
-	height: 350px;
-	width: 615px;
+	min-width: 615px;
+	min-height: 350px;
 }
 
 #il6rqk-3 {
