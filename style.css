@@ -780,6 +780,7 @@ body {
 
 #imqvkv {
 	width: 100%;
+	flex-wrap: nowrap;
 }
 
 #il6rqk {
@@ -795,32 +796,12 @@ body {
 	width: 615px;
 }
 
-#isb9z6 {
-	font-size: 24pt;
-}
-
 #imau5i-2 {
 	height: 350px;
 	width: 615px;
 }
 
 #il6rqk-2 {
-	flex-basis: 50%;
-}
-
-#isb9z6-2 {
-	font-size: 24pt;
-}
-
-#i3lj1-2 {
-	background-color: rgb(36, 99, 235);
-}
-
-#i3lj1-2:hover {
-	background-color: rgba(102, 150, 255, 1);
-}
-
-#isrxh2-2 {
 	flex-basis: 50%;
 }
 
@@ -837,8 +818,86 @@ body {
 	flex-basis: 50%;
 }
 
-#isb9z6-3 {
+#imqvkv-3 {
+	width: 100%;
+}
+
+#ifbf0k {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#itxi99 {
+	text-align: left;
+}
+
+#ie3ggj {
+	text-align: left;
+}
+
+#i9j7vc {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#ia55fo {
 	font-size: 24pt;
+}
+
+#iyjge1 {
+	font-size: 24pt;
+}
+
+#i9fe2p {
+	text-align: left;
+}
+
+#iovv8o {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#iqr1l7 {
+	text-align: left;
+}
+
+#if2j14 {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#i3lj1-2 {
+	background-color: rgb(36, 99, 235);
+}
+
+#i3lj1-2:hover {
+	background-color: rgba(102, 150, 255, 1);
+}
+
+#isrxh2-2 {
+	flex-basis: 50%;
+}
+
+#i2561h {
+	font-size: 24pt;
+}
+
+#i9bf5h {
+	text-align: left;
+}
+
+#i3oino {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#ie2hig {
+	text-align: left;
+}
+
+#iryk9n {
+	padding: 10px;
+	padding-left: 20px;
 }
 
 #i3lj1-3 {
@@ -853,8 +912,16 @@ body {
 	flex-basis: 50%;
 }
 
-#imqvkv-3 {
-	width: 100%;
+#i864xq {
+	color: rgb(45, 194, 107);
+}
+
+#idbxhu {
+	color: rgb(241, 196, 15);
+}
+
+#i7htxv {
+	color: rgb(224, 62, 45);
 }
 
 @media (max-width: 992px) {
