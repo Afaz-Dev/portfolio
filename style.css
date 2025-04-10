@@ -780,25 +780,15 @@ body {
 
 #imqvkv {
 	width: 100%;
-	flex-wrap: nowrap;
-}
-
-#il6rqk {
-	flex-basis: 50%;
 }
 
 #isrxh2 {
 	flex-basis: 50%;
 }
 
-#imau5i {
-	min-width: 615px;
-	min-height: 350px;
-}
-
 #imau5i-2 {
-	min-width: 615px;
-	min-height: 350px;
+	height: 350px;
+	width: 615px;
 }
 
 #il6rqk-2 {
@@ -810,8 +800,8 @@ body {
 }
 
 #imau5i-3 {
-	min-width: 615px;
-	min-height: 350px;
+	height: 350px;
+	width: 615px;
 }
 
 #il6rqk-3 {
@@ -842,40 +832,6 @@ body {
 
 #ia55fo {
 	font-size: 24pt;
-}
-
-#iyjge1 {
-	font-size: 24pt;
-}
-
-#i9fe2p {
-	text-align: left;
-}
-
-#iovv8o {
-	padding: 10px;
-	padding-left: 20px;
-}
-
-#iqr1l7 {
-	text-align: left;
-}
-
-#if2j14 {
-	padding: 10px;
-	padding-left: 20px;
-}
-
-#i3lj1-2 {
-	background-color: rgb(36, 99, 235);
-}
-
-#i3lj1-2:hover {
-	background-color: rgba(102, 150, 255, 1);
-}
-
-#isrxh2-2 {
-	flex-basis: 50%;
 }
 
 #i2561h {
@@ -912,16 +868,103 @@ body {
 	flex-basis: 50%;
 }
 
-#i864xq {
-	color: rgb(45, 194, 107);
-}
-
 #idbxhu {
 	color: rgb(241, 196, 15);
 }
 
 #i7htxv {
 	color: rgb(224, 62, 45);
+}
+
+#ihs4lb-2 {
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+}
+
+#iiacm-2 {
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+	max-width: 900px;
+	color: rgba(255, 255, 255, 1);
+}
+
+#i8w4i-2 {
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+}
+
+#education {
+	justify-content: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#imau5i-4 {
+	height: 350px;
+	width: 615px;
+}
+
+#il6rqk-4 {
+	flex-basis: 50%;
+}
+
+#i864xq-2 {
+	color: rgb(45, 194, 107);
+}
+
+#iyjge1-2 {
+	font-size: 24pt;
+}
+
+#i9fe2p-2 {
+	text-align: left;
+}
+
+#iovv8o-2 {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#iqr1l7-2 {
+	text-align: left;
+}
+
+#if2j14-2 {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#i3lj1-2-2 {
+	background-color: rgb(36, 99, 235);
+}
+
+#i3lj1-2-2:hover {
+	background-color: rgba(102, 150, 255, 1);
+}
+
+#isrxh2-2-2 {
+	flex-basis: 50%;
+}
+
+#imqvkv-4 {
+	width: 100%;
+}
+
+#iac6f-2 {
+	height: 500px;
+	background-image: unset;
+	background-position: unset;
+	background-size: unset;
+	background-repeat: unset;
+	background-attachment: unset;
+	background-origin: unset;
+}
+
+#ihw7e5 {
+	color: rgb(36, 99, 235);
 }
 
 @media (max-width: 992px) {
