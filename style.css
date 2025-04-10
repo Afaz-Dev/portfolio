@@ -778,10 +778,6 @@ body {
 	flex-wrap: nowrap;
 }
 
-#imqvkv {
-	width: 100%;
-}
-
 #isrxh2 {
 	flex-basis: 50%;
 }
@@ -965,6 +961,26 @@ body {
 
 #ihw7e5 {
 	color: rgb(36, 99, 235);
+}
+
+#iw7afe {
+	width: 100%;
+}
+
+#i3mqhw {
+	flex-basis: 100%;
+	display: flex;
+	min-height: 200px;
+	background-image: url("assets/sunsetforest.gif");
+	background-position: 0px -90px;
+	background-size: 1000px 500px;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-origin: padding-box;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 @media (max-width: 992px) {
