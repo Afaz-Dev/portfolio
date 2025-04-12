@@ -696,7 +696,7 @@ body {
 	padding-right: 20px;
 }
 
-#past-p-ref {
+#i88iz-3 {
 	padding: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	padding-left: 20px;
@@ -976,14 +976,13 @@ body {
 	border-top-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	background-image: url("assets/schulehoechi.jpg");
+	background-image: url("assets/schuleh_chi.jpg");
 	background-position: 0px 0px;
 	background-size: 1115.1px 394.8px;
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-origin: padding-box;
 	filter: unset;
-	display: none;
 }
 
 #navcol-2 {
@@ -1618,7 +1617,7 @@ body {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	filter: unset;
-	display: flex;
+	display: none;
 }
 
 #i85as3-2 {
@@ -1661,8 +1660,8 @@ body {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	background-image: url("assets/img_sekolah.gif");
-	background-position: 0px -50px;
-	background-size: 1115.1px 394.8px;
+	background-position: 0px -70px;
+	background-size: 1226.61px 434.28px;
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-origin: padding-box;
