@@ -977,7 +977,7 @@ body {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	background-image: url("assets/img_sekolah.gif");
-	background-position: 10px -50px;
+	background-position: 0px -50px;
 	background-size: 1115.1px 394.8px;
 	background-repeat: repeat;
 	background-attachment: scroll;
@@ -1015,6 +1015,7 @@ body {
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	backdrop-filter: blur(13px);
+	box-shadow: unset;
 	flex-direction: row;
 	background-image: linear-gradient(90deg, rgba(15, 15, 20, 255) 10%, rgba(15, 15, 20, 255) 19.170984455958546%, rgba(15, 15, 20, 255) 90%);
 	background-position: 0px 0px;
@@ -1578,9 +1579,9 @@ body {
 	border-top-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	background-image: url("assets/img_sekolah.gif");
-	background-position: 10px -50px;
-	background-size: 1115.1px 394.8px;
+	background-image: url("assets/mrsmlgk.png");
+	background-position: -100px -130px;
+	background-size: 1343.3px 723.8px;
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-origin: padding-box;
