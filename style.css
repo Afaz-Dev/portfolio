@@ -1673,6 +1673,41 @@ body {
 	font-size: 24pt;
 }
 
+/* Mobile Card Carousel Styles */
+#customCardCarousel .card-carousel-container {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #customCardCarousel .card-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  #customCardCarousel .card {
+    scroll-snap-align: center;
+    flex: 0 0 80%;
+    min-width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  #customCardCarousel .card iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+
+  #customCardCarousel .card-body {
+    padding: 1rem;
+  }
+
 @media (max-width: 992px) {
 	#i2d7qp {
 		flex-direction: row;
