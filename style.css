@@ -1392,6 +1392,77 @@ body {
 	font-size: 24pt
 }
 
+/* Mobile & Tablet Card Carousel */
+.card-carousel-container {
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	-webkit-overflow-scrolling: touch;
+	display: flex;
+}
+
+.card-carousel {
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.carousel-card {
+	flex: 0 0 80%;
+	scroll-snap-align: start;
+	background: white;
+	border-radius: 1rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	min-width: 280px;
+	max-width: 400px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #00000050;
+}
+
+.carousel-card iframe {
+	width: 100%;
+	height: 200px;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.carousel-card h5 {
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+.carousel-card p {
+	font-size: 0.9rem;
+	margin-bottom: 1rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(0, 123, 255); 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(2, 77, 157); 
+  }
+
 @media (max-width:992px) {
 	.gjs-grid-row {
 		flex-direction: column
