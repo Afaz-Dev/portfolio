@@ -329,6 +329,25 @@ body {
   overflow: hidden;
 }
 
+/* Carousel-specific scrollbar styling */
+.card-carousel-container::-webkit-scrollbar {
+  height: 7px;
+}
+
+.card-carousel-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(40, 40, 40);
+  border-radius: 10px;
+}
+
+.card-carousel-container::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+.card-carousel-container::-webkit-scrollbar-thumb:hover {
+  background: rgb(2, 77, 157);
+}
+
 .carousel-card {
   display: flex;
   flex-direction: column;
