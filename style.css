@@ -1,4 +1,4 @@
-/* ========================================
+﻿/* ========================================
    CSS Variables
    ======================================== */
 :root {
@@ -207,6 +207,7 @@ body {
 .hero-description {
   font-size: 17px;
   color: var(--text-light);
+  text-align: center;
 }
 
 .hero-cta {
