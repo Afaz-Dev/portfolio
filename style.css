@@ -1,4 +1,4 @@
-﻿/* ========================================
+/* ========================================
    CSS Variables
    ======================================== */
 :root {
@@ -508,6 +508,43 @@ body {
 }
 
 @media (max-width: 768px) {
+  .card-carousel-container {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) rgb(40, 40, 40);
+  }
+
+  .card-carousel-container::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  .card-carousel-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(40, 40, 40);
+    border-radius: 10px;
+  }
+
+  .card-carousel-container::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+  }
+
+  .card-carousel-container::-webkit-scrollbar-thumb:hover {
+    background: rgb(2, 77, 157);
+  }
+
+  .carousel-card {
+    background: #00000050;
+    border-radius: 1rem;
+  }
+
+  .carousel-card h5 {
+    color: #fff;
+  }
+
+  .carousel-card p {
+    color: var(--text-light);
+  }
+
   .hero-title {
     font-size: 3rem;
   }
@@ -542,6 +579,25 @@ body {
     width: 100%;
     overflow-x: auto;
     scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) rgb(40, 40, 40);
+  }
+
+  .card-carousel-container::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  .card-carousel-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(40, 40, 40);
+    border-radius: 10px;
+  }
+
+  .card-carousel-container::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+  }
+
+  .card-carousel-container::-webkit-scrollbar-thumb:hover {
+    background: rgb(2, 77, 157);
   }
 
   .carousel-card {
