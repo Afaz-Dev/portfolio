@@ -1,4 +1,4 @@
-﻿/* ========================================
+/* ========================================
    CSS Variables
    ======================================== */
 :root {
@@ -535,19 +535,31 @@ body {
   .card-carousel-container {
     display: flex;
     width: 100%;
+    overflow-x: auto;
+    scrollbar-width: thin;
   }
 
   .carousel-card {
     width: calc(100vw - 2.5rem);
+    background: #00000050;
+    border-radius: 1rem;
+  }
+
+  .carousel-card h5 {
+    color: #fff;
+  }
+
+  .carousel-card p {
+    color: var(--text-light);
   }
 
   .hero-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .hero-title strong,
   .hero-title .text-blue {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .hero-description {
