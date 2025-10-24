@@ -1,4 +1,4 @@
-﻿/* ========================================
+/* ========================================
    CSS Variables
    ======================================== */
 :root {
@@ -220,12 +220,15 @@ body {
   display: flex;
   justify-content: center;
   padding: 80px 20px;
+  overflow: hidden;
 }
 
 .section-container {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .section-subtitle {
@@ -277,7 +280,8 @@ body {
 }
 
 .project-video iframe {
-  width: 615px;
+  width: 100%;
+  max-width: 615px;
   height: 350px;
 }
 
@@ -304,26 +308,36 @@ body {
 .card-carousel-container {
   display: flex;
   overflow-x: auto;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  scrollbar-width: thin;
 }
 
 .card-carousel {
   display: flex;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
+  min-width: min-content;
+}
+
+.mobile-carousel {
+  width: 100%;
+  overflow: hidden;
 }
 
 .carousel-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 0 0 80%;
-  min-width: 280px;
+  flex: 0 0 auto;
+  width: calc(100vw - 3rem);
   max-width: 400px;
-  margin: auto;
   padding: 1rem;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   background: #00000050;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -354,8 +368,8 @@ body {
    Skills Section
    ======================================== */
 .skills-carousel {
-  height: 500px;
-  min-height: 500px;
+  height: auto;
+  min-height: 300px;
   padding-top: 30px;
   justify-content: flex-start;
 }
@@ -461,11 +475,39 @@ body {
   .btn.btn-primary:hover {
     background-color: var(--primary-hover);
   }
+
+  .carousel-content {
+    height: auto;
+    min-height: 400px;
+  }
 }
 
 @media (max-width: 768px) {
   .hero-title {
     font-size: 3rem;
+  }
+
+  .hero-title strong,
+  .hero-title .text-blue {
+    font-size: 3rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .nav-logo img {
+    padding-left: 15px;
+    max-height: 30px;
+  }
+
+  .project-layout {
+    flex-direction: column;
+  }
+
+  .project-video iframe {
+    max-width: 100%;
+    height: 250px;
   }
 }
 
@@ -473,5 +515,45 @@ body {
   .card-carousel-container {
     display: flex;
     width: 100%;
+  }
+
+  .carousel-card {
+    width: calc(100vw - 2.5rem);
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-title strong,
+  .hero-title .text-blue {
+    font-size: 2rem;
+  }
+
+  .hero-description {
+    font-size: 15px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+
+  .section-subtitle {
+    padding-left: 10px;
+  }
+
+  #past-projects,
+  #education {
+    padding: 60px 10px;
+  }
+
+  .nav-cta {
+    padding: 0 10px 0 5px;
+  }
+
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
 }
