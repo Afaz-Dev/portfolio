@@ -174,7 +174,7 @@ body {
 #hero {
   display: flex;
   justify-content: center;
-  padding: 80px 20px;
+  padding: 60px 20px 50px;
   backdrop-filter: blur(3px);
 }
 
@@ -187,7 +187,7 @@ body {
 }
 
 .hero-title {
-  font-size: 4.4rem;
+  font-size: 4rem;
   text-align: center;
   color: #fff;
   margin: 0;
@@ -196,12 +196,12 @@ body {
 .hero-title strong {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 70px;
+  font-size: 64px;
 }
 
 .hero-title .text-blue {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 64px;
 }
 
 .hero-description {
@@ -217,11 +217,11 @@ body {
 /* ========================================
    Section Styles
    ======================================== */
-#past-projects,#contacts, 
+#past-projects,#contacts,
 #skills {
   display: flex;
   justify-content: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
   overflow: hidden;
 }
 
@@ -240,7 +240,7 @@ body {
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   max-width: 750px;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -260,7 +260,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 450px;
   padding: 20px;
   text-align: center;
   color: var(--text-white);
@@ -284,7 +284,7 @@ body {
 .project-video iframe {
   width: 100%;
   max-width: 615px;
-  height: 350px;
+  height: 320px;
 }
 
 .project-info {
@@ -394,15 +394,15 @@ body {
    ======================================== */
 .skills-carousel {
   height: auto;
-  min-height: 300px;
-  padding-top: 30px;
+  min-height: 260px;
+  padding-top: 20px;
   justify-content: flex-start;
 }
 
 .skill-icon {
   flex-basis: 100%;
   width: 100%;
-  min-height: 200px;
+  min-height: 180px;
 }
 
 /* ========================================
@@ -411,7 +411,7 @@ body {
 #footer {
   display: flex;
   justify-content: center;
-  padding: 80px 20px;
+  padding: 60px 20px 50px;
 }
 
 .footer-container {
