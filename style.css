@@ -428,19 +428,19 @@ body {
 }
 
 #roblox-skill {
-  background-image: linear-gradient(135deg, rgba(22, 22, 22, 0.9) 0%, rgba(6, 84, 144, 0.432) 100%);
+  background-image: linear-gradient(135deg, rgba(35, 46, 52, 0.9) 0%, rgba(17, 37, 55, 0.432) 100%);
 }
 
 #discord-skill {
-  background-image: linear-gradient(135deg, rgba(64, 22, 137, 0.8) 0%, rgba(88, 101, 242, 0.6) 100%);
+  background-image: linear-gradient(135deg, rgba(39, 23, 0, 0.9) 0%, rgba(47, 6, 144, 0.432) 100%);
 }
 
 #godot-skill {
-  background-image: linear-gradient(135deg, rgba(71, 135, 203, 0.377) 0%, rgba(100, 132, 195, 0.8) 100%);
+  background-image: linear-gradient(135deg, rgba(39, 23, 0, 0.9) 0%, rgba(17, 114, 188, 0.432) 100%);
 }
 
 #webdev-skill {
-  background-image: linear-gradient(135deg, rgba(45, 194, 107, 0.6) 0%, rgba(32, 140, 82, 0.8) 100%);
+  background-image: linear-gradient(135deg, rgba(39, 23, 0, 0.9) 0%, rgba(6, 144, 107, 0.432) 100%);
 }
 
 .skill-logo {
