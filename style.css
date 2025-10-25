@@ -217,7 +217,7 @@ body {
 /* ========================================
    Section Styles
    ======================================== */
-#past-projects,
+#past-projects,#contacts, 
 #skills {
   display: flex;
   justify-content: center;
@@ -636,7 +636,7 @@ body {
     padding-left: 10px;
   }
 
-  #past-projects,
+  #past-projects,#contacts,
   #skills {
     padding: 60px 10px;
   }
