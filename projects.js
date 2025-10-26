@@ -86,6 +86,7 @@ function generateMobileCarousel(projects) {
   });
 }
 
+//The media stuff
 function createMediaElement(project) {
   if (project.mediaType === 'youtube') {
     return `<iframe src="${project.mediaUrl}" allowfullscreen title="${project.title}"></iframe>`;
