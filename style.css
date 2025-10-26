@@ -345,7 +345,7 @@ body {
 
 .swipe-text {
   display: inline-block;
-  color: #d2d2d2;
+  color: #ffffff;
   font-size: 20px;
   animation: swipeAnimation 2s ease-in-out infinite;
 }
@@ -356,7 +356,7 @@ body {
     opacity: 0.7;
   }
   50% {
-    transform: translateX(10px);
+    transform: translateX(30px);
     opacity: 1;
   }
 }
@@ -367,7 +367,7 @@ body {
     opacity: 0.7;
   }
   50% {
-    transform: translateX(-10px);
+    transform: translateX(-30px);
     opacity: 1;
   }
 }
