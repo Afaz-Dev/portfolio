@@ -5,8 +5,11 @@ async function loadProjects() {
 
     generateDesktopCarousel(projects);
     generateMobileCarousel(projects);
+
+    return Promise.resolve();
   } catch (error) {
     console.error('Error loading projects:', error);
+    return Promise.reject(error);
   }
 }
 
@@ -92,4 +95,29 @@ function createMediaElement(project) {
   return '';
 }
 
-document.addEventListener('DOMContentLoaded', loadProjects);
+function initializeSwipeHint() {
+  const container = document.getElementById('projectCarouselContainer');
+  const hint = document.getElementById('swipeHint');
+  const hintText = hint?.querySelector('.swipe-text');
+
+  if (!container || !hint || !hintText) return;
+
+  container.addEventListener('scroll', () => {
+    const scrollLeft = container.scrollLeft;
+    const maxScroll = container.scrollWidth - container.clientWidth;
+
+    if (scrollLeft >= maxScroll - 10) {
+      hintText.textContent = '← swipe left';
+      hintText.style.animation = 'swipeAnimationLeft 2s ease-in-out infinite';
+    } else {
+      hintText.textContent = 'swipe right →';
+      hintText.style.animation = 'swipeAnimation 2s ease-in-out infinite';
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadProjects().then(() => {
+    initializeSwipeHint();
+  });
+});

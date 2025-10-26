@@ -1,4 +1,4 @@
-﻿/* ========================================
+/* ========================================
    CSS Variables
    ======================================== */
 :root {
@@ -321,6 +321,42 @@ body {
 .mobile-carousel {
   width: 100%;
   overflow: hidden;
+  position: relative;
+}
+
+.swipe-hint {
+  text-align: center;
+  padding: 15px 0 5px 0;
+  opacity: 0.7;
+}
+
+.swipe-text {
+  display: inline-block;
+  color: var(--text-light);
+  font-size: 14px;
+  animation: swipeAnimation 2s ease-in-out infinite;
+}
+
+@keyframes swipeAnimation {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateX(10px);
+    opacity: 1;
+  }
+}
+
+@keyframes swipeAnimationLeft {
+  0%, 100% {
+    transform: translateX(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateX(-10px);
+    opacity: 1;
+  }
 }
 
 .card-carousel-container {
