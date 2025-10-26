@@ -56,6 +56,10 @@ body {
   color: #2463eb;
 }
 
+.text-roblox-blue {
+  color: #009FFF;
+}
+
 .text-purple {
   color: #586aea;
 }
@@ -471,7 +475,7 @@ body {
   gap: 20px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-height: 100px;
+  min-height: /*100px;*/ auto;
 }
 
 .skill-card:hover {
@@ -497,6 +501,10 @@ body {
 
 #python-skill {
   background-image: linear-gradient(135deg, rgba(39, 33, 0, 0.9) 0%, rgba(6, 73, 144, 0.432) 100%);
+}
+
+#cpp-skill {
+  background-image: linear-gradient(135deg, rgba(14, 0, 39, 0.9) 0%, rgba(3, 88, 179, 0.432) 100%);
 }
 
 .skill-logo {
