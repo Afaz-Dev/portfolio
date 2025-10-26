@@ -485,6 +485,10 @@ body {
   background-image: linear-gradient(135deg, rgba(39, 23, 0, 0.9) 0%, rgba(6, 144, 107, 0.432) 100%);
 }
 
+#python-skill {
+  background-image: linear-gradient(135deg, rgba(39, 33, 0, 0.9) 0%, rgba(6, 73, 144, 0.432) 100%);
+}
+
 .skill-logo {
   width: 60px;
   height: 60px;
