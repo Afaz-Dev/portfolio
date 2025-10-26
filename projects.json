@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Generative AI NPC Dialogue System",
+    "titleHighlight": "Generative",
+    "highlightColor": "green",
+    "description": "Deployed an API server on Render using the FastAPI framework, integrating an AI for immersive NPC dialogue systems compatible with any game engine.",
+    "mediaType": "youtube",
+    "mediaUrl": "https://www.youtube.com/embed/g4SFLh9Imq4?&loop=1&playlist=g4SFLh9Imq4",
+    "projectLink": "https://www.roblox.com/games/17124884493/Chat-with-a-smart-AI-NPC-AiConvo-Showcase"
+  },
+  {
+    "id": 2,
+    "title": "Joystick Controller",
+    "titleHighlight": "Joystick",
+    "highlightColor": "yellow",
+    "description": "Built a joystick controller using various components found and connected them to an Arduino Mega 2560. The Arduino communicates with games or software either through JSON or by simulating assigned keybinds and mouse movements.",
+    "mediaType": "youtube",
+    "mediaUrl": "https://www.youtube.com/embed/gpotQWYRFac?",
+    "projectLink": "https://example.com"
+  },
+  {
+    "id": 3,
+    "title": "Orbital Mechanics Simulation",
+    "titleHighlight": "Orbital",
+    "highlightColor": "red",
+    "description": "Developed an Orbital Mechanics simulation in Godot 2D simulating the n-body problem and the use of the polar equation of 2-body orbits.",
+    "mediaType": "youtube",
+    "mediaUrl": "https://www.youtube.com/embed/k_mOLVYPUOQ?",
+    "projectLink": "https://example.com"
+  }
+]
