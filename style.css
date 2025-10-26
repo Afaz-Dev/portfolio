@@ -36,12 +36,16 @@ body {
    Utility Classes
    ======================================== */
 
-.text-yellow {
-  color: #f1c40f;
-}
-
 .text-red {
   color: #e03e2d;
+}
+
+.text-orange {
+  color: #e0862d;
+}
+
+.text-yellow {
+  color: #f1c40f;
 }
 
 .text-green {
