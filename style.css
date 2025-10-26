@@ -332,8 +332,8 @@ body {
 
 .swipe-text {
   display: inline-block;
-  color: var(--text-light);
-  font-size: 18px;
+  color: #d2d2d2;
+  font-size: 20px;
   animation: swipeAnimation 2s ease-in-out infinite;
 }
 
