@@ -1,4 +1,4 @@
-/* ========================================
+﻿/* ========================================
    CSS Variables
    ======================================== */
 :root {
@@ -333,7 +333,7 @@ body {
 .swipe-text {
   display: inline-block;
   color: var(--text-light);
-  font-size: 14px;
+  font-size: 18px;
   animation: swipeAnimation 2s ease-in-out infinite;
 }
 
