@@ -372,11 +372,18 @@ body {
   max-width: 400px;
   padding: 1rem;
   scroll-snap-align: center;
-  background: #00000050;
+  background: linear-gradient(to bottom,rgba(22, 27, 47, 0.6) 0%,rgba(0, 0, 0, 0) 100%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
+.carousel-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(36, 99, 235, 0.3);
+}
+
 
 .carousel-card iframe {
   width: 100%;
