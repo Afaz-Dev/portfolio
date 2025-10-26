@@ -91,7 +91,7 @@ function createMediaElement(project) {
   if (project.mediaType === 'youtube') {
     return `<iframe src="${project.mediaUrl}" allowfullscreen title="${project.title}"></iframe>`;
   } else if (project.mediaType === 'image') {
-    return `<img src="${project.mediaUrl}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0.5rem;">`;
+    return `<img src="${project.mediaUrl}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: contain; border-radius: 0.5rem; background-color: rgba(29, 29, 29, 0);">`;
   }
   return '';
 }

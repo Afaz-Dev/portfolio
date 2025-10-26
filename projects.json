@@ -35,8 +35,8 @@
     "titleHighlight": "Portfolio",
     "highlightColor": "blue",
     "description": "Designed and developed a personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills effectively.",
-    "mediaType": "youtube",
-    "mediaUrl": "https://www.firdauszaki.com/assets/preview.png",
+    "mediaType": "image",
+    "mediaUrl": "https://www.firdauszaki.com/assets/preview.jpg",
     "projectLink": "https://github.com/Afaz-Dev/portfolio"
   }
 ]
