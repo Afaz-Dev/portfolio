@@ -17,7 +17,7 @@
     "description": "Built a joystick controller using various components found and connected them to an Arduino Mega 2560. The Arduino communicates with games or software either through JSON or by simulating assigned keybinds and mouse movements.",
     "mediaType": "youtube",
     "mediaUrl": "https://www.youtube.com/embed/gpotQWYRFac?",
-    "projectLink": "https://github.com/Afaz-Developer/arduino-joystick"
+    "projectLink": "https://github.com/Afaz-Dev/arduino-joystick"
   },
   {
     "id": 3,
